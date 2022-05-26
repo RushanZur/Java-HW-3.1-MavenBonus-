@@ -59,7 +59,7 @@ public class BonusMilesServiceTest {
         // подготавливаем данные:
         long amount = 1000;
         boolean registered = false;
-        long expected = 30;
+        long expected = 10;
 
         // вызываем целевой метод:
         long actual = service.calculate(amount, registered);
